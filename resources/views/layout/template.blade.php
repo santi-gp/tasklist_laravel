@@ -21,7 +21,10 @@
                 </ul>
             </nav>
         </header>
-        <main class="p-2">
+        <main>
+            <h2 class="my-1">
+                @yield('subtitle')
+            </h2>
             @yield('content')
         </main>
         <footer class="bgc-1 color-1">
